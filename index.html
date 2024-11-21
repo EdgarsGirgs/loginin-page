@@ -6,6 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>LOG IN PAGE</h1>
+  <h1>LOG IN PAGE</h1>
+    <form action="process.php" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <button type="submit" name="register">Register</button>
+        <button type="submit" name="login">Login</button>
+    </form>
 </body>
 </html>
